@@ -68,7 +68,7 @@ const SigninScreen = () => {
         </div>
         <div className="mb-3">
           New customer?{" "}
-          <Link to={`/profile?redirect=${redirect}`}>Create your account</Link>
+          <Link to={`/signup?redirect=${redirect}`}>Create your account</Link>
         </div>
       </Form>
     </Container>
